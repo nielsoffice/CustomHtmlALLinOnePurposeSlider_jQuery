@@ -1,4 +1,4 @@
-# CustomHtmlALLinOnePurposeSlider_jQuery
+# Dynamic HTML Custom Multi-purpose slider with jQuery
 Custom Html ALL in One Purpose Slider with jQuery
 
 ```JS
