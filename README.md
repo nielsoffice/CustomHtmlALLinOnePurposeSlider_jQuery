@@ -3,6 +3,9 @@ Custom Html ALL in One Purpose Slider with jQuery
 
 ```JS
 
+   /**
+   * Cooked by nielsoffice
+   **/
     var slideInterval          = 1000;
     var parentContainerSlider  = jQuery('#slider'); // select parent container
     var parentContainerListTag = jQuery('.slides'); // select slider container
