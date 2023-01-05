@@ -16,11 +16,11 @@ Custom Html ALL in One Purpose Slider with jQuery
 
         const performSlides = jQuery.fn.sliderDynamicPost = function() { 
 
-             let childFirst = jQuery('.slides li').first().show('fast',function() { 
+             let childFirst = jQuery( childListTags ).first().show('fast',function() { 
         
              $( this ).addClass('active');  
 
-             if( jQuery('.slides li').first().hasClass('active') === true ) {
+             if( jQuery( childListTags ).first().hasClass('active') === true ) {
 
                 var childCountList = 1;
                 
@@ -29,7 +29,7 @@ Custom Html ALL in One Purpose Slider with jQuery
                     let __sliders = jQuery(childListTags).length;
                     let __counts  = childCountList++;               
 
-                    if( jQuery('.slides').find('li').hasClass('active') ) {
+                    if( jQuery( parentContainerListTag ).find('li').hasClass('active') ) {
 
                      jQuery(childListTagsActive).hide().removeClass('active');
            
