@@ -18,7 +18,7 @@ Custom Html ALL in One Purpose Slider with jQuery
 
              let childFirst = jQuery( childListTags ).first().show('fast',function() { 
         
-             $( this ).addClass('active');  
+             jQuery( this ).addClass('active');  
 
              if( jQuery( childListTags ).first().hasClass('active') === true ) {
 
