@@ -63,14 +63,7 @@ Custom Html ALL in One Purpose Slider with jQuery
         };
 
         performSlides();
-
-        // Bonus for Library !
-        // to get interval for slide to call again
-        // get total of delay from each slides ex. 2 slides each slide having 1000 interval
-        // 2000 + 1000 when the slides rich 2000 for 3k it will reload again and do slides!
-
-        // setInterval(performSlides,slides ); 
-
+        
     });
 
 ```
